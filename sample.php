@@ -8,7 +8,8 @@
 		<p></p>
 
 		<?php
-		$connection_string = "host=RDS_Connection_String port=RDS_Port_Number dbname=RDS_DB_Name user=RDS_Username password=RDS_password";
+		$connection_string = "host=saiyed-db.cluster-csrmu632kxlx.us-east-1.rds.amazonaws.com port=5432 dbname=saiyed-db
+ user=postgres password=Night0220";
 		$connection = pg_connect($connection_string) or die("Could not connect to the database: " . pg_last_error());
 
 
